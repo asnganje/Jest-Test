@@ -33,6 +33,7 @@ function stringLength(str) {
     }
   }
   
+  //capitalize function
   function capitalizeString(str) {
     if (str.length === 0) {
       throw new Error("Invalid string");
