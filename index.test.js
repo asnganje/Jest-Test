@@ -6,11 +6,11 @@ const { capitalizeString } = require("./index");
 
 const str = "";
 const str1 = "hello it's me";
-const lowercase = "rebaz";
+const lowercase = "abdul";
 const calc = new Calculator();
 
 // Task 1
-// test String Length function
+// testing String Length function
 
 test("returns string length", () => {
   expect(stringLength("hello")).toBe(5);
@@ -85,7 +85,7 @@ test("throws error if 0 is being divided by a number", () => {
 // Task 4
 // test Capitalized String function
 test("returns capitalized string", () => {
-  expect(capitalizeString(lowercase)).toBe("Rebaz");
+  expect(capitalizeString(lowercase)).toBe("Abdul");
   expect(capitalizeString(str1)).toBe("Hello it's me");
   expect((str) => capitalizeString()).toThrow(Error);
 });

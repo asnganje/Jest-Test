@@ -1,9 +1,9 @@
 // Length of string
-function stringLength(str) {
-    if (str.length < 0 || str.length > 10) {
+function stringLength(string) {
+    if (string.length < 0 || string.length > 10) {
       throw new Error(" Length of string must be >= 0 and <= 10");
     }
-    return str.length;
+    return string.length;
   }
   
   // Reverse a string
